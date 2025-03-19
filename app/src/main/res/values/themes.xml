@@ -1,0 +1,26 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.VirusWars"
+        parent="Theme.MaterialComponents.DayNight.NoActionBar">
+         <item name="colorPrimary">@color/background_color</item>
+    </style>
+
+    <style name="Theme.App.Starting" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/background_color2</item>
+        <item name="windowSplashScreenAnimatedIcon">@mipmap/ic_launcher_foreground</item>
+        <item name="postSplashScreenTheme">@style/Base.Theme.VirusWars</item>
+    </style>
+    <style name="Theme.VirusWars" parent="Base.Theme.VirusWars" />
+    <style name="ToolbarTitleStyle">
+        <item name="android:fontFamily">@font/exo</item>
+        <item name="android:textSize">28sp</item>
+    </style>
+
+    <style name="StatOptionTextStyle">
+        <item name="android:fontFamily">@font/exo</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_margin">10dp</item>
+    </style>
+</resources>

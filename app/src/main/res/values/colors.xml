@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="x_killed_background">#0041C2</color>
+    <color name="o_killed_background">#B80F0A</color>
+    <color name="grid_color">#2b2b2b</color>
+    <color name="background_color">#e0e0e0</color>
+    <color name ="background_color2">#ADD8E6</color>
+    <color name="toolbar_background">#1a75ff</color>
+    <color name="button_color">#DC143C</color>
+</resources>

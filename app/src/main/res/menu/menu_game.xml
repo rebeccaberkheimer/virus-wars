@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_home"
+        android:title="@string/menu_home"
+        android:icon="@drawable/home"
+        app:showAsAction="ifRoom"
+        />
+    <item
+        android:id="@+id/menu_grids"
+        android:title="@string/menu_grids"
+        android:icon="@drawable/grid_change"
+        app:showAsAction="ifRoom">
+        <menu>
+            <item
+                android:id="@+id/menu_grids_grid6"
+                android:title="@string/menu_six" />
+            <item
+                android:id="@+id/menu_grids_grid7"
+                android:title="@string/menu_seven" />
+            <item
+                android:id="@+id/menu_grids_grid8"
+                android:title="@string/menu_eight"/>
+            <item
+                android:id="@+id/menu_grids_grid10"
+                android:title="@string/menu_ten" />
+        </menu>
+    </item>
+    <item
+        android:icon="@drawable/save"
+        android:title="@string/menu_save_game"
+        app:showAsAction="ifRoom">
+        <menu>
+            <item
+                android:id="@+id/menu_load_game"
+                android:title="@string/menu_load_game"/>
+            <item
+                android:id="@+id/menu_save_game"
+                android:title="@string/menu_save_game"/>
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/menu_sound"
+        android:icon="@drawable/sound_on"
+        android:title="@string/menu_sound"
+        app:showAsAction="ifRoom" />
+
+</menu>

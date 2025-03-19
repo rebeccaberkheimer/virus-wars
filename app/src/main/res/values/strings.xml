@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">Virus Wars</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="undo_button_description">Undo the last move</string>
+    <string name="restart_button_description">Start a new game</string>
+    <string name="help_button_description">Get help with the rules</string>
+    <string name="welcome_message">Welcome to Virus Wars!</string>
+    <string name="title_virus_one_desc">Red Virus Icon</string>
+    <string name="title_icons_text">VS</string>
+    <string name="title_virus_two_icon">Blue Virus Icon</string>
+    <string name="title_selection_text">Where to Next?</string>
+    <string name="standard_mode_text">Standard Mode</string>
+    <string name="standard_mode_description">Virus Wars according to the rules for regular
+    gameplay.</string>
+    <string name="challenge_mode_text">Challenge Mode</string>
+    <string name="challenge_mode_description">Regular gameplay with obstacle viruses added, for
+        players who like a challenge!</string>
+    <string name="statistics_text">Statistics</string>
+    <string name="statistics_description">Learn which Colony is greatest!</string>
+    <string name="selection_button_text">Go!</string>
+    <string name="information">
+        The goal of the game is to prevent the other player from moving. The starting player,
+        Colony O, will make 1 move to begin to balance out the starting advantage, and then each
+        player will make 3 moves per turn. When moving a player can: \n\n
+        \t■ Place a virus in any of the adjacent cells surrounding an existing live virus \n
+        \t■ Kill an opponent\'s virus, creating a chain of killed viruses the player can move through
+        \n\n In Sudden Death Mode, each player is only given 1 move per turn. In Challenge Mode,
+        green viruses represent obstacles that neither player can move through, so a player
+        must find the best way around them.
+        In all modes, the goal remains the same, stop your opponent.
+        Tap the back arrow to undo a move or the restart arrow to start a new game.
+        \n\n There are options in the toolbar for returning to the selection screen changing the
+        game\'s grid size, saving or loading a game, and muting the sound.
+    </string>
+    <string name="preview_content_description">Displays a preview of the mode</string>
+    <string name="menu_grids">Grid Size Options</string>
+    <string name="menu_six">Start a new 6 by 6 game?</string>
+    <string name="menu_seven">Start a new 7 by 7 game?</string>
+    <string name="menu_eight">Start a new 8 by 8 game?</string>
+    <string name="menu_ten">Start a new 10 by 10 game?</string>
+    <string name="menu_save_game">Save Game</string>
+    <string name="menu_load_game">Load Game</string>
+    <string name="menu_sound">Sound</string>
+    <string name="menu_home">Go back to the selection screen</string>
+    <string name="player_o">COLONY O</string>
+    <string name="player_x">COLONY X</string>
+    <string name="colony_x_wins">COLONY X WINS!</string>
+    <string name="colony_o_wins">COLONY O WINS!</string>
+    <string name="menu_about">About</string>
+    <string name="menu_exit">Exit</string>
+    <string name="copyright">© 2024 Rebecca Berkheimer</string>
+    <string name="exit">Exit the app?</string>
+    <string name="sudden_death_mode">Sudden Death Mode</string>
+    <string name="sudden_mode_desc">Virus Wars, but each player only gets one move per turn,
+        best for strategic players!</string>
+    <string name="invalid_move">Invalid Move</string>
+    <string name="undo_fail">Move cannot be undone</string>
+    <string name="restart_message">The game is already in the starting configuration</string>
+    <string name="save_finished_game">Your game has been saved!</string>
+    <string name="game_count_text">Total Games Played:</string>
+    <string name="move_count_text">Average moves made per game:</string>
+
+</resources>

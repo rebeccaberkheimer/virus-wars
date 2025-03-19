@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/grid_color">
+
+    <TextView
+        android:id="@+id/text_app_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="18dp"
+        android:textSize="60sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:fontFamily="@font/exo"
+        android:text="@string/app_name" />
+
+    <TextView
+        android:id="@+id/copyright"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="18dp"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:fontFamily="@font/exo"
+        android:text="@string/copyright" />
+
+    <LinearLayout
+        android:id="@+id/icon_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="70dp"
+            android:contentDescription="@string/title_virus_one_desc"
+            android:src="@drawable/virus_red" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/title_icons_text"
+            android:fontFamily="@font/exo"
+            android:layout_gravity="center"
+            android:textColor="@color/white"
+            android:textSize="48sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="70dp"
+            android:src="@drawable/virus_blue2"
+            android:contentDescription="@string/title_virus_two_icon" />
+    </LinearLayout>
+</LinearLayout>

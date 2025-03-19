@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto" >
+
+    <TextView
+        android:id="@+id/modeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle= "bold"
+        android:textColor="@color/black"
+        android:textSize="48sp"
+        android:fontFamily="@font/exo"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/turnText" />
+    <TextView
+        android:id="@+id/turnText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle= "bold"
+        android:textColor="@color/black"
+        android:textSize="44sp"
+        android:fontFamily="@font/exo"
+        app:layout_constraintTop_toBottomOf="@id/modeText"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/grid_layout" />
+    <GridLayout
+        android:id="@+id/grid_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity = "center"
+        app:layout_constraintTop_toBottomOf="@+id/turnText"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/button_layout" />
+    <LinearLayout
+        android:id="@+id/button_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toBottomOf="@+id/grid_layout"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent">
+        <ImageButton
+            android:id="@+id/undoButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/undo"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:scaleType="centerInside"
+            android:tooltipText="@string/undo_button_description"
+            android:contentDescription="@string/undo_button_description" />
+
+        <ImageButton
+            android:id="@+id/restartButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="80dp"
+            android:src="@drawable/restart"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:scaleType="centerInside"
+            android:tooltipText="@string/restart_button_description"
+            android:contentDescription="@string/restart_button_description" />
+
+        <ImageButton
+            android:id="@+id/infoButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/help_button_description"
+            android:src="@drawable/help"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:scaleType="centerInside"
+            android:tooltipText="@string/help_button_description" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
